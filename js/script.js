@@ -1,3 +1,5 @@
+
+
 var allbtn = document.querySelector("#allbtn");
 allbtn.addEventListener("click",getAll);
 var searchbtn = document.querySelector("#searchbtn");
@@ -7,6 +9,7 @@ function getAll() {
 let url = "https://restcountries.eu/rest/v2/all";
 let div = document.querySelector("#panel");
     div.innerHTML = "";
+   alert("Scroll down to see more Contries")
 
 ajaxFetch('GET', url, popDiv);
 }

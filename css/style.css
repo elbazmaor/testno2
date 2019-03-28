@@ -55,18 +55,19 @@ h1{
     display: flex;
     border-radius: 25px;
     margin-top: 10px;
-    border: 2px solid #4CAF50;
+    border: 5px solid yellow;
    
     
 }
 .item:nth-child(odd) {
     /* background-color:rgb(98, 132, 143); */
-    border: 5px solid lightyellow ;
+    border: 5px solid yellow ;
+    background-color: white;
   
     
 }
 .item:nth-child(even) {
-    /* background-color: lightblue; */
+    background-color: white;
     
    
 }
@@ -95,5 +96,5 @@ h1{
     color:black;
     font-size: 15px;
    background-color:whitesmoke;
-    font-family: monospace;    
+    font-weight: bold; 
 }
